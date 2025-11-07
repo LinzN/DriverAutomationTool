@@ -7492,6 +7492,8 @@ AABJRU5ErkJgggs='))
 	$OSComboBox.Font = [System.Drawing.Font]::new('Segoe UI', '10')
 	$OSComboBox.ForeColor = [System.Drawing.Color]::Black 
 	$OSComboBox.FormattingEnabled = $True
+	[void]$OSComboBox.Items.Add('Windows 11 25H2')
+	[void]$OSComboBox.Items.Add('Windows 11 24H2')
 	[void]$OSComboBox.Items.Add('Windows 11 23H2')
 	[void]$OSComboBox.Items.Add('Windows 11 22H2')
 	[void]$OSComboBox.Items.Add('Windows 11 21H2')
